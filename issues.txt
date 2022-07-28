@@ -1,3 +1,10 @@
-- Vấn đề: git fetch thì code sẽ được lưu ở đâu
-- Vấn đề: tạo ra nhiều commit nhưng muốn sửa lại code ở commit trước
-- Vấn đề:
+- Vấn đề 1: git fetch thì code sẽ được lưu ở đâu hay code thay đổi sẽ được git lưu ở đâu
+- Vấn đề 2: tạo ra nhiều commit nhưng muốn sửa lại code ở commit trước
+- Vấn đề 3: git reset --soft + git checkout = git reset --mix
+- Vấn đề 4: đặt lại thên author là tên mình khi sử dụng máy của người khác
+  + git commit --author="Name <email>" -m "commit message"
+  + git commit --amend --author="Name <email>" -m "commit message"
+- Vấn đề 5: Lỡ xóa nhầm branch mà muốn khôi phục lại
+  + git reflog
+  + git branch <new_branch> <commit_hash>
+- Vấn đề 6: Đặt sai tên branch
