@@ -1,0 +1,3 @@
+- Vấn đề: git fetch thì code sẽ được lưu ở đâu
+- Vấn đề: tạo ra nhiều commit nhưng muốn sửa lại code ở commit trước
+- Vấn đề:
